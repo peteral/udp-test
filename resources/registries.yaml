@@ -1,0 +1,4 @@
+mirrors:
+  la-di.net:
+    endpoint:
+      - "http://nb-lpetera-u:5000"

@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: udp-test
+  namespace: ac4
+spec:
+  selector:
+    app: udp-test
+  ports:
+    - protocol: UDP
+      port: 2601
+      targetPort: udp
+      nodePort: 2601
+  type: LoadBalancer

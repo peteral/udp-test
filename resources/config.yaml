@@ -1,0 +1,5 @@
+write-kubeconfig-mode: "0644"
+cluster-init: true
+flannel-backend: none
+disable-network-policy: true
+kube-apiserver-arg: service-node-port-range=1-65535
